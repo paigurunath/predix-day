@@ -1,0 +1,6 @@
+---
+applications:
+  - name: agrimacs-services
+    buildpack: java_buildpack
+    path: target/agrimacs-1.jar
+    memory: 512M
